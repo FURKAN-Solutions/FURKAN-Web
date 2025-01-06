@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Account</title>
+  <link rel="icon" href="favicon.ico">
+  <meta name="author" content="Dargentolle François, Rapanakis-Bourg Marius, Fautsch Mathis">
+  <meta charset="utf-8">
+  <title>Account Furkan</title>
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/account.css">
 </head>
 <body>
-  <h1>Account</h1>
+  <nav class="menu">
+    <ol>
+        <li><a href="#Accueil">Accueil</a></li>
+        <li><a href="#Catalogue">Catalogue</a></li>
+        <li><a href="#Partenaires">Partenaires</a></li>
+        <li><a href="#APropos">A Propos</a></li>
+        <li><a href="#Moncompte">Mon compte</a></li>
+    </ol>
+  </nav>
+  <h1>Mon Compte</h1>
+  <p>Les bénéfices d'avoir un compte FURKAN Solutions</p>
+  <ol>
+    <li><p>20 % de remise sur le premier achat</p></li>
+    <li><p>Être notifiés de nos nouveaux arrivages</p></li>
+    <li><p>Voir en temps réel le temps de transaction</p></li>
+    <li><p>Être au courant des prochaines collaborations avec FURKAN Solutions</p></li>
+  </ol>
+  <form method="get" action="/action_Mon_Compte_FURKAN.php">
+    <p>
+        <label for="nom">Nom :</label>
+        <input type="text" name="Nom" id="nom" placeholder="Rentrez votre nom ici" required="required">
+        <label for="prenom">Prenom :</label>
+        <input type="text" name="Prenom" id="prenom" placeholder="Rentrez votre prenom ici" required="required">
+        <label for="email">Email :</label>
+        <input type="email" name="Email" id="email" placeholder="Rentrez votre email ici" required="required">
+        <label for="adresse">Adresse :</label>
+        <input type="text" name="Adresse" id="adresse" placeholder="Rentrez votre adresse ici">
+        <label for="ville">Ville :</label>
+        <input type="text" name="Ville" id="ville" placeholder="Rentrez votre ville ici">
+        <label for="code_postal">Code Postal :</label>
+        <input type="number" name="Code Postal" id="code_postal" placeholder="Rentrez votre code postal ici">
+        <label for="tel">Tel. :</label>
+        <input type="tel" name="Tel." id="tel" placeholder="Rentrez votre numéro de téléphone ici" required="required"> 
+    </p>
+    <input type="checkbox" id="accept" name="Acceptez">
+    <label for="accept">Vous acceptez de recevoir des notifications de FURKAN Solutions et  de participer à nos sondages hebdomadaires dans le but d’améliorer nos services</label>
+    <input type="checkbox" id="politique" name="Politique"  required="required">
+    <label for="politique">Vous avez pris connaissance de notre politique de confidentialité et nos conditions et acceptez de les respecter (obligatoire)</label>
+    <input type="submit" name="Soumettre" id="soumettre">
+  </form>
+  <footer>
+    <h4>Nos réseaux sociaux</h4>
+    <ol class="NosRéseauxSociaux">
+        <li><a href="#Youtube">Youtube</a></li>
+        <li><a href="#Instagram">Instagram</a></li>
+        <li><a href="#LinkedIn">LinkedIn</a></li>
+        <li><a href="#X/Twitter">X / Twitter</a></li>
+    </ol>
+    <h4>Informations Pratiques</h4>
+    <ol class="InformationsPratiques">
+        <li><a href="#Qui_sommes-nous?">Qui sommes-nous ?</a></li>
+        <li><a href="#Mentions_légales">Mentions légales</a></li>
+        <li><a href="#Politique_de_confidentialité">#Politique de confidentialité</a></li>
+        <li><a href="#Conditions_générales_d'utilisation">Conditions générales d'utilisation</a></li>
+    </ol>
+    <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
+      <g clip-path="url(#clip0_433_438)">
+          <path d="M27.4819 44.021C30.8743 44.021 33.6244 41.2249 33.6244 37.7758C33.6244 34.3266 30.8743 31.5305 27.4819 31.5305C24.0894 31.5305 21.3394 34.3266 21.3394 37.7758C21.3394 41.2249 24.0894 44.021 27.4819 44.021Z" stroke="#101010" stroke-width="2.5" stroke-miterlimit="10"/>
+          <path d="M20.1694 52.6454C24.208 52.6454 27.4819 49.3167 27.4819 45.2106C27.4819 41.1044 24.208 37.7758 20.1694 37.7758C16.1308 37.7758 12.8569 41.1044 12.8569 45.2106C12.8569 49.3167 16.1308 52.6454 20.1694 52.6454Z" stroke="#101010" stroke-width="2" stroke-miterlimit="10"/>
+          <path d="M12.1256 63.5003C17.6181 63.5003 22.0706 58.9733 22.0706 53.389C22.0706 47.8046 17.6181 43.2776 12.1256 43.2776C6.63313 43.2776 2.1806 47.8046 2.1806 53.389C2.1806 58.9733 6.63313 63.5003 12.1256 63.5003Z" stroke="#101010" stroke-width="1.5" stroke-miterlimit="10"/>
+          <path d="M29.057 36.5327L29.9155 37.4056L30.7842 38.2888L31.3122 37.8784C31.612 37.6584 31.8708 37.4992 31.9016 37.532C31.922 37.5528 32.4909 38.7825 33.1432 40.265C33.8057 41.7371 34.4054 43.0412 34.4873 43.1453C34.5809 43.2821 34.7871 43.2612 35.16 43.0501C36.039 42.5772 36.4733 42.0717 36.5245 41.4516C36.545 41.1572 36.9077 38.8539 37.3201 36.3305C38.0645 31.8517 38.085 31.7462 38.5925 31.2317C38.8923 30.9269 39.1205 30.7796 39.1102 30.8956C39.1 30.9908 38.727 33.3238 38.2722 36.0792L37.4444 41.0843L38.8616 41.0947C39.9789 41.0947 40.3299 41.0323 40.5786 40.7795C40.7438 40.6115 42.9771 35.7744 45.5321 30.0436L50.1755 19.6244L51.3031 18.2891C52.6062 16.7323 52.7407 16.4497 52.3166 16.0185C52.0475 15.7449 52.0577 15.6512 52.4614 14.8408C52.8446 14.0944 53.2467 13.6215 55.5429 11.2022C57.7352 8.91082 58.4591 8.04838 59.7622 6.26105C60.6309 5.06255 61.4996 3.82242 61.6956 3.49529C61.8916 3.16964 62.4912 2.39196 63.0192 1.77041L63.9815 0.644775L63.1742 1.44328C62.7296 1.8745 61.9545 2.49456 61.4675 2.82021C58.696 4.64918 56.3794 6.5629 53.6387 9.26621C51.2607 11.6007 50.7941 12.0111 50.06 12.3992C49.2644 12.8096 49.1708 12.8201 48.9017 12.5465C48.4775 12.1152 48.1982 12.252 46.6684 13.5769L45.3551 14.7234L35.1074 19.4445C29.4709 22.0422 24.7148 24.3128 24.5481 24.4809C24.2995 24.7336 24.2381 25.0905 24.2381 26.2266L24.2483 27.6674L29.1711 26.8258C31.8811 26.3634 34.1757 25.9842 34.2693 25.9738C34.3834 25.9634 34.2386 26.1938 33.9388 26.5002C33.4328 27.0146 33.329 27.0369 28.9239 27.7938C26.442 28.2146 24.1766 28.5819 23.8871 28.6027C23.2772 28.6548 22.7799 29.0964 22.3149 29.9901C22.1087 30.3692 22.0867 30.5789 22.2213 30.6741C22.3251 30.7588 23.6077 31.3685 25.0541 32.0406C26.5122 32.7023 27.7217 33.2807 27.7422 33.303C27.7729 33.3343 27.6179 33.5974 27.4014 33.9023L26.9978 34.4391L27.8665 35.3223L28.725 36.1952" fill="#303030"/>
+      </g>
+      <defs>
+          <clipPath id="clip0_433_438">
+              <rect width="64" height="64" fill="white" transform="translate(0.5 0.5)"/>
+          </clipPath>
+      </defs>
+  </svg>
+    <small>Cette déclinaison de logo et tous les auttes ainsi que la variante originale du logo constituent la propriété de FURKAN Solutions. Leur utilisation est prohibée sans autorisation de l'entreprise propriétaire</small>
+  </footer>
 </body>
 </html>
