@@ -1,3 +1,115 @@
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans Condensed';
+    src: url('../../fonts/DassaultAviationSansCondensed-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans Condensed';
+    src: url('../../fonts/DassaultAviationSansCondensed-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans Condensed';
+    src: url('../../fonts/DassaultAviationSansCondensed-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     font-family: "Dassault Aviation Sans", sans-serif;
 }
