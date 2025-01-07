@@ -110,6 +110,12 @@
     font-style: normal;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Dassault Aviation Sans", sans-serif;
 }
@@ -123,4 +129,30 @@ p {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.cta {
+    font-family: "Dassault Aviation Sans", sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    width: fit-content;
+    max-width: 200px;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #F66;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #E65C5C;
+}
+
+.cta:active {
+    background-color: #CC5252;
 }
