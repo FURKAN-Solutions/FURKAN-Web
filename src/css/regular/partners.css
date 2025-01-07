@@ -1,5 +1,5 @@
 #partnersTitle {
-    background-image: url("/src/media/ImageHeaderPartners.png");
+    background-image: url("../../media/ImageHeaderPartners.png");
     color: #FBFBFB;
     flex-shrink: 0;
     display: flex;
@@ -31,6 +31,11 @@
 
 .img-container {
     flex-grow: 1;
+    width: 100%;
+}
+
+.lockheed-exception {
+    width: 100%
 }
 
 .inner-card-odd {
@@ -43,6 +48,8 @@
 
 .text-card-odd {
     column-count: 2;
+    text-align: justify;
+    text-justify: auto;
 }
 
 .hr-main-odd {
@@ -95,4 +102,6 @@
 
 .text-card-even {
     column-count: 2;
+    text-justify: auto;
+    text-align: justify;
 }
