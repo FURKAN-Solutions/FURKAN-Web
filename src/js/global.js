@@ -15,7 +15,7 @@ body.append($('<footer></footer>'));
 $('footer').load("./assets/components/footer.html #footer");
 
 // Handling the 2000 version of the website
-document.addEventListener('DOMContentLoaded', () => {
+window.onload = () => {
     // Function to add "2000" stylesheets
     function add2000Stylesheets() {
         $('link[rel="stylesheet"][href*="regular"]').each(function () {
@@ -57,4 +57,4 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem("alternative", "true");
         }
     });
-});
+};
