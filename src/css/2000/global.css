@@ -1,14 +1,9 @@
-body {
-  font-family: Arial, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  color: #333;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #666;
+#endSection .switch {
+  background-image: url("../../media/809f5c2aab51871f3544d24b9b88ce23_w200.gif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
 }
