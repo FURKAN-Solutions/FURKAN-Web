@@ -22,7 +22,7 @@ body {
      flex-direction: column;
      gap: 10px;
      width: 100%;
-    height: 50rem;
+     height: 50rem;
  }
 
  .imagefond{
@@ -32,7 +32,12 @@ body {
  }
 
 .card-container:nth-of-type(1) .imagefond{
-  background: url(../../media/Img-a_propos.jpg);
+  background-image: url(../../media/Img-a_propos\ 1.png);
+  background-position: center;
+}
+
+.card-container:nth-of-type(2) .imagefond{
+  background-image: url(../../media/image\ 4.png);
 }
 
   p.text1 {
@@ -43,7 +48,7 @@ body {
     color: #000;
     text-align: justify;
     font-family: "Dassault Aviation Sans Condensed";
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -51,7 +56,7 @@ body {
   
   hr{
     width: 80%;
-    height: 1%;
+    height: 0.05%;
     background: #FBFBFB;
  }
   
@@ -87,12 +92,37 @@ h2.Fur{
     color: #000;
     text-align: justify;
     font-family: "Dassault Aviation Sans Condensed";
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
  }
   
+ .card-container-3{
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 50rem;
+}
+
+.image-fond-3{
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100%;
+ width: auto;
+ display: flex;
+ flex-direction: row;
+}
+
+.image-fond-3:nth-of-type(1) {
+  background-image: url("../../media/APropos - Savoirfaire et expérience 1.png");
+}
+
+.image-fond-3:nth-of-type(2) {
+  background-image: url("../../media/Prix oscar pour avions.png");
+}
+
  h1.Nouscontacter{
     display: flex;
     flex-direction: column;

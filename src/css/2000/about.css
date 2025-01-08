@@ -30,6 +30,15 @@ hr{
     height: 50rem;
 }
 
+.card-container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50rem;
+}
+
 p.text1 {
     display: flex;
     flex-direction: column;
@@ -48,6 +57,12 @@ p.text1 {
     height: 100%;
 }
 
+.imagefond-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 .card-container:nth-of-type(1) .imagefond {
     background-image: url("../../media/AVion-About-2000.png") ;
     background-position:center;
@@ -58,7 +73,7 @@ p.text1 {
     background-position:center;
 }
 
-.card-container:nth-of-type(3) .imagefond {
+.card-container-2:nth-of-type(3) .imagefond-2 {
     background-image: url("../../media/image\ 7.png") ;
     background-position:center;
     background-blend-mode: darken;
@@ -269,4 +284,4 @@ h2.Fur{
     footer {
       padding: 40px 80px;
     }
-  };
+  }
