@@ -15,12 +15,24 @@ body {
     font-weight: 700;
     line-height: normal;
   }
-  
-.imagefond_1{
-    width: 100%;
-    height: 20%;
-    flex-shrink: 0;
-    background-image : url(https://s3-alpha-sig.figma.com/img/678d/5be2/40e082ac61e52c38748b4ed8a22e6e30?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o4tS4y0GK4hM-q1F3qw82m3z8uqm0mpMWyOrcB1E54fFSTiu45RZ-YamiPzRzPtpjV433oVBTFsKVccQCkwhHeGn1axc9fIQnToETp-GybX1Hcdbk19tzPunGstg-WdZja4Gk9LQk7ipAgGoZXjg4lPYDGpp5RSBYWY~zaeeNdYDYB9CCoNOOBplUbGU18DPmTy89nI6SdmT2pa3gBPV7bFrjKopkUraGTQXqhreGbeXNSSz5c1cDwX5RXEbhMIzMqBtceCucTKUoJHoyDEGcakr38LYI8O3OxBZINoXOWldUENP3wF-~6hxywWHszwXUgAB1mwKzEptl8ypK083ag__) cover no-repeat;
+
+.card-container{
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     width: 100%;
+    height: 50rem;
+ }
+
+ .imagefond{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+ }
+
+.card-container:nth-of-type(1) .imagefond{
+  background: url(../../media/Img-a_propos.jpg);
 }
 
   p.text1 {
@@ -43,12 +55,6 @@ body {
     background: #FBFBFB;
  }
   
-/* #im_Ap{
-    height: 20%;
-    width: 100%;
-    flex-shrink: 0;
-    background image: url(https://s3-alpha-sig.figma.com/img/678d/5be2/40e082ac61e52c38748b4ed8a22e6e30?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=o4tS4y0GK4hM-q1F3qw82m3z8uqm0mpMWyOrcB1E54fFSTiu45RZ-YamiPzRzPtpjV433oVBTFsKVccQCkwhHeGn1axc9fIQnToETp-GybX1Hcdbk19tzPunGstg-WdZja4Gk9LQk7ipAgGoZXjg4lPYDGpp5RSBYWY~zaeeNdYDYB9CCoNOOBplUbGU18DPmTy89nI6SdmT2pa3gBPV7bFrjKopkUraGTQXqhreGbeXNSSz5c1cDwX5RXEbhMIzMqBtceCucTKUoJHoyDEGcakr38LYI8O3OxBZINoXOWldUENP3wF-~6hxywWHszwXUgAB1mwKzEptl8ypK083ag__) lightgray 50% / cover no-repeat;
- }*/
   
   h2.Chez{
     display: flex;
