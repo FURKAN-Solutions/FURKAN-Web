@@ -8,10 +8,9 @@ body {
   
   h1 {
   color: #000;
-  -webkit-text-stroke: 3px ;
-  -webkit-text-stroke-width: 3;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #0929FF;
-  font-family: "Inria Serif";
+  font-family: "Dassault Aviation Serif", serif;
   font-size: 150px;
   font-style: normal;
   font-weight: 400;
@@ -21,7 +20,7 @@ body {
   .description {
     text-align: center;
     color: #000;
-    font-family: "Inria Serif";
+    font-family: "Dassault Aviation Serif", serif;
     font-size: 44px;
     font-style: normal;
     font-weight: 400;
@@ -42,13 +41,13 @@ body {
     border-radius: 10px;
     border: 23px solid #F00;
     background: linear-gradient(to bottom right, #FFDA22 5%, #3FEB3F 14%, #40E9B3 21%, #368EE0 28%, #2B42D4 33%, #794CE1 41%, #FF00A1 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #FFDA22 5%, #3FEB3F 14%, #40E9B3 21%, #368EE0 28%, #2B42D4 33%, #794CE1 41%, #FF00A1 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #FFDA22 5%, #3FEB3F 14%, #40E9B3 21%, #368EE0 28%, #2B42D4 33%, #794CE1 41%, #FF00A1 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #FFDA22 5%, #3FEB3F 14%, #40E9B3 21%, #368EE0 28%, #2B42D4 33%, #794CE1 41%, #FF00A1 50%) top right / 50% 50% no-repeat;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
   
   form label {
     display: block;
     color: #FFF;
-    font-family: "Inria Serif";
+    font-family: "Dassault Aviation Serif", serif;
     font-size: 34px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +106,7 @@ body {
   }
 
   .space:nth-of-type(1) .hand{
-    background-image: url(../../media/wow.gif) ;
+    background-image: url(../../media/wow.webp) ;
   }
   
   /* Responsive Styles */

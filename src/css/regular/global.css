@@ -262,7 +262,7 @@ nav:has(> #navbar) {
 }
 
 #endSection .switch {
-    background-image: url("../../media/plane1.gif");
+    background-image: url("../../media/plane1.webp");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

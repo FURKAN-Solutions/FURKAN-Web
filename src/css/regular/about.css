@@ -1,291 +1,288 @@
 body {
-  background: #FFF;
+    background: #FFF;
 }
 
 h1.Ap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #FBFBFB;
-  text-align: center;
-  font-family: "Dassault Aviation Sans";
-  font-size: 150px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .card-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-  height: 50rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50rem;
 }
 
 .imagefond {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .card-container:nth-of-type(1) .imagefond {
-  background-image: url(../../media/Img-a_propos\ 1.png);
-  background-position: center;
+    background-image: url("../../media/Img-a_propos 1.webp");
+    background-position: center;
 }
 
 .card-container:nth-of-type(2) .imagefond {
-  background-image: url(../../media/image\ 4.png);
+    background-image: url("../../media/image 4.webp");
 }
 
 p.text1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #000;
-  text-align: justify;
-  font-family: "Dassault Aviation Sans Condensed";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: "Dassault Aviation Sans Condensed", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 hr {
-  width: 80%;
-  height: 0.05%;
-  background: #FBFBFB;
+    width: 80%;
+    height: 0.05%;
+    background: #FBFBFB;
 }
 
 
 h2.Chez {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #000;
-  text-align: center;
-  font-family: "Dassault Aviation Sans";
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 h2.Fur {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #000;
-  text-align: center;
-  font-family: "Dassault Aviation Serif";
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 p.Fur {
-  color: #000;
-  text-align: justify;
-  font-family: "Dassault Aviation Sans Condensed";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    color: #000;
+    text-align: justify;
+    font-family: "Dassault Aviation Sans Condensed", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .card-container-3 {
-  position: relative;
-  gap: 10px;
-  width: 100%;
-  height: 20rem;
-  display: flex;
-  flex-direction: row;
+    position: relative;
+    gap: 10px;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .image-fond-3 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  flex-basis: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    flex-basis: 0;
 }
 
 .image-fond-3:nth-of-type(1) {
-  background-image: url("../../media/APropos - Savoirfaire et expérience 1.png");
-  flex-grow: 5;
+    background-image: url("../../media/about_savoir_faire.webp");
+    flex-grow: 5;
 }
 
 .image-fond-3:nth-of-type(2) {
-  background-image: url("../../media/Prix oscar pour avions.png");
-  flex-grow: 4;
+    background-image: url("../../media/Prix oscar pour avions.webp");
+    flex-grow: 4;
 }
 
 h1.Nouscontacter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #F6F6F6;
-  text-align: center;
-  font-family: "Dassault Aviation Serif";
-  font-size: 128px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .card-container-4 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-  height: 30rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 30rem;
 }
 
 .imagefond-4 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  background-image: url("../../media/Rectangle 38.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-image: url("../../media/Rectangle 38.webp");
 }
 
 .card3 {
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  width: 80%;
-  height: 18rem;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 0 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    height: 18rem;
+    align-items: center;
+    justify-content: left;
+    padding: 0 2rem;
 }
 
 .card1 {
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  width: 65%;
-  height: 18rem;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 0 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 65%;
+    height: 18rem;
+    align-items: center;
+    justify-content: left;
+    padding: 0 2rem;
 }
 
 .card2 {
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  width: 75%;
-  height: 18rem;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 0 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%;
+    height: 18rem;
+    align-items: center;
+    justify-content: left;
+    padding: 0 2rem;
 }
 
 .photo_de_profil {
-  background-position: center;
-  background-size: contain;
-  height: 50%;
-  aspect-ratio: 1;
+    background-position: center;
+    background-size: contain;
+    height: 50%;
+    aspect-ratio: 1;
 }
 
 .card1 {
-  background-image: url("../../media/bleufoncé.png");
+    background-image: url("../../media/bleufonce.webp");
 }
 
 .card1 .photo_de_profil {
-  background-image: url("../../media/image-profil.png");
+    background-image: url("../../media/image-profil.webp");
 }
 
 .card2 {
-  background-image: url("../../media/grisfoncé.png");
+    background-image: url("../../media/grisfonce.webp");
 
 }
 
 .card2 .photo_de_profil {
-  background-image: url("../../media/image-profil.png");
+    background-image: url("../../media/image-profil.webp");
 }
 
 .card3 {
-  background-image: url("../../media/rouge.png");
+    background-image: url("../../media/rouge.webp");
 
 }
 
 .card3 .photo_de_profil {
-  background-image: url("../../media/image-profil.png");
+    background-image: url("../../media/image-profil.webp");
 }
 
 .information_FR li p {
-  color: #FFF;
-  font-family: "Frank Ruhl Libre";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    color: #FFF;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .information_MAR li p {
-  color: #FFF;
-  font-family: "Frank Ruhl Libre";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    color: #FFF;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .information_MAT li p {
-  color: #FFF;
-  font-family: "Frank Ruhl Libre";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    color: #FFF;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* Responsive styles */
 @media (min-width: 768px) {
 
-  /* Tablet styles */
-  header.menu ol {
-    justify-content: flex-start;
-    padding-left: 40px;
-  }
+    /* Tablet styles */
+    header.menu ol {
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
 
-  form {
-    max-width: 700px;
-    padding: 30px;
-  }
+    form {
+        max-width: 700px;
+        padding: 30px;
+    }
 
-  footer {
-    text-align: left;
-    padding: 30px 50px;
-  }
+    footer {
+        text-align: left;
+        padding: 30px 50px;
+    }
 }
 
 @media (min-width: 1024px) {
 
-  /* Desktop styles */
-  form {
-    max-width: 800px;
-    padding: 40px;
-  }
+    /* Desktop styles */
+    form {
+        max-width: 800px;
+        padding: 40px;
+    }
 
-  header.menu ol {
-    justify-content: flex-start;
-    padding-left: 60px;
-  }
+    header.menu ol {
+        justify-content: flex-start;
+        padding-left: 60px;
+    }
 
-  footer {
-    padding: 40px 80px;
-  }
+    footer {
+        padding: 40px 80px;
+    }
 }

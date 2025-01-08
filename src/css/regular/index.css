@@ -44,7 +44,7 @@ h1 {
 }
 
 .card-container:nth-of-type(1) .bg-container {
-    background-image: url("../../media/rafale-homepage.png");
+    background-image: url("../../media/rafale-homepage.webp");
     background-position: right;
     filter: brightness(0.5);
 }
@@ -100,21 +100,21 @@ h1 {
 }
 
 #f22 {
-    background-image: url("../../media/f-22a_1.jpg");
+    background-image: url("../../media/f-22a_1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #m2000 {
-    background-image: url("../../media/m2000_1.jpg");
+    background-image: url("../../media/m2000_1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #lavi {
-    background-image: url("../../media/lavi_2.jpg");
+    background-image: url("../../media/lavi_2.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,7 +128,7 @@ h1 {
 }
 
 .card-container:nth-of-type(3) .bg-container {
-    background-image: url("../../media/handshake.png");
+    background-image: url("../../media/handshake.webp");
     filter: brightness(0.5);
 }
 
@@ -158,7 +158,7 @@ h1 {
 }
 
 .card-container:nth-of-type(4) .bg-container {
-    background-image: url("../../media/fr_flag.png");
+    background-image: url("../../media/fr_flag.webp");
     background-position: center;
     filter: brightness(0.5);
 }
