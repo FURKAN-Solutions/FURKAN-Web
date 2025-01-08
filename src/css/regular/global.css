@@ -117,8 +117,15 @@ html, body {
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
     font-family: "Dassault Aviation Sans", sans-serif;
+    height: 100%;
+    overflow: auto;
 }
 
 h1 {
@@ -192,7 +199,7 @@ p {
 nav:has(> #navbar) {
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 10;
 }
 
 #navbar {
@@ -248,10 +255,20 @@ nav:has(> #navbar) {
     flex-grow: 1;
 }
 
-#navbar #endSection {
+#endSection {
     display: flex;
     align-items: center;
     gap: 4rem;
+}
+
+#endSection .switch {
+    background-image: url("../../media/plane1.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
 }
 
 #footer {
@@ -320,4 +337,32 @@ nav:has(> #navbar) {
 
 #footer .vl {
     border-color: rgba(0, 0, 0, 0.5);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: max-content;
+    background-color: #EEE;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    z-index: 50;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem;
+    user-select: none;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
 }
