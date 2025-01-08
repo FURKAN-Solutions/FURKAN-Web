@@ -254,11 +254,6 @@ nav:has(> #navbar) {
     gap: 4rem;
 }
 
-#cart {
-    cursor: pointer;
-    height: 2.5rem;
-}
-
 #footer {
     font-family: "Dassault Aviation Sans Condensed", sans-serif;
     display: flex;
