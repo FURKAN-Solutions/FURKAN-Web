@@ -46,8 +46,9 @@ body {
 }
 
 .container-product h2 {
+    text-align: center;
     color: #FBFBFB;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .container-product h3 {
