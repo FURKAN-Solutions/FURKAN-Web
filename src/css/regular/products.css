@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+#productsTitle {
+    background-image: url("../../media/Avion- catalogue 1.png");
+    color: #FBFBFB;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    height: 39rem;
+    width:100%;
+    background-position: center;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+#productsTitle h1 {
+    color: inherit;
+    margin: 1rem;
+}
+
+.hr-main {
+    border: solid 1px #FBFBFB;
+    text-align: center;
+    width : 80%
+}
+
+.container-product {
+    display: flex;
+    max-width: 25%;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background: #24486D;
+}
+
+.container-product-inner {
+    padding: 25px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.container-product img {
+    width: 100%;
+}
+
+.container-product h2 {
+    color: #FBFBFB;
+    font-size: 5rem;
+}
+
+.container-product h3 {
+    color: #FBFBFB;
+    font-size: 2rem;
+}
+
+.text-product {
+    color: #FFF;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.tab-container-products {
+    display: flex;
+    flex-direction: row;
+    align-self: auto;
+    gap: 5rem;
+    margin: 55px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
