@@ -1,14 +1,368 @@
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans';
+    src: url('../../fonts/DassaultAviationSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans Condensed';
+    src: url('../../fonts/DassaultAviationSansCondensed-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans Condensed';
+    src: url('../../fonts/DassaultAviationSansCondensed-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Sans Condensed';
+    src: url('../../fonts/DassaultAviationSansCondensed-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dassault Aviation Serif';
+    src: url('../../fonts/DassaultAviationSerif-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
-  font-family: Arial, sans-serif;
+    font-family: "Dassault Aviation Sans", sans-serif;
+    height: 100%;
+    overflow: auto;
 }
 
 h1 {
-  text-align: center;
-  color: #333;
+    text-align: center;
+    color: #333;
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.cta {
+    font-family: "Dassault Aviation Sans", sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    width: fit-content;
+    max-width: 200px;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #F66;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #E65C5C;
+}
+
+.cta:active {
+    background-color: #CC5252;
+}
+
+.dropdown {
+    user-select: none;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #2520b7;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.vl {
+    opacity: 0.5;
+    border-left: 1px solid #fff;
+    height: 75%;
+    margin: 0 10px;
+}
+
+nav:has(> #navbar) {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#navbar {
+    font-family: "Dassault Aviation Sans", sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #190E4F;
+    color: #fff;
+    height: 109px;
+    gap: 4rem;
+    transition: height 0.3s ease-in-out;
+}
+
+#navbar.scrolled {
+    height: 80px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#logo img {
+    height: 3.5rem;
+}
+
+#navbar a {
+    font-weight: normal;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#brandName {
+    font-family: "Dassault Aviation Serif", serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#endSection {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#endSection .switch {
+    background-image: url("../../media/plane1.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+}
+
+#footer {
+    font-family: "Dassault Aviation Sans Condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    background-color: #E2E2E2;
+    color: #000;
+    height: 250px;
+}
+
+#footer > * {
+    flex-basis: 0;
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+#footer section {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer li {
+    list-style-type: none;
+    margin: 0;
+    line-height: 1;
+    font-weight: lighter;
+}
+
+#footer a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+#footer span {
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+}
+
+#footer .vl {
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: max-content;
+    background-color: #EEE;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    z-index: 50;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem;
+    user-select: none;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
 }
