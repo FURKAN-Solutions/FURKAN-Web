@@ -33,6 +33,10 @@ h1 {
     height: 50rem;
 }
 
+.card-container:nth-of-type(1) {
+    height: 45rem;
+}
+
 .bg-container {
     background-size: cover;
     background-repeat: no-repeat;
