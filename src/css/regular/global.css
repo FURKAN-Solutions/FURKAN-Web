@@ -111,6 +111,7 @@
 }
 
 html, body {
+    position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -155,4 +156,131 @@ p {
 
 .cta:active {
     background-color: #CC5252;
+}
+
+.dropdown {
+    user-select: none;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #2520b7;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.vl {
+    opacity: 0.5;
+    border-left: 1px solid #fff;
+    height: 50%;
+    margin: 0 10px;
+}
+
+nav:has(> #navbar) {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#navbar {
+    font-family: "Dassault Aviation Sans", sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #190E4F;
+    color: #fff;
+    height: 109px;
+    gap: 4rem;
+    transition: height 0.3s ease-in-out;
+}
+
+#navbar.scrolled {
+    height: 90px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#navbar a {
+    font-weight: normal;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#brandName {
+    font-family: "Dassault Aviation Serif", serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#navbar #endSection {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#cart {
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #E2E2E2;
+    color: #000;
+}
+
+#footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#footer h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#footer a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#footer p {
+    opacity: 0.5;
+    font-size: 0.5rem;
 }
