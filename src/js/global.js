@@ -1,31 +1,24 @@
 const body = $('body');
 
-
 // Loading the navbar component
-
 body.prepend($('<nav></nav>'));
 $('nav').load("./assets/components/navbar.html #navbar");
 
-
 // Navbar scroll effect
-
 $(body).scroll(() => {
     const nav = document.querySelector('#navbar');
     if ($(body).scrollTop() <= 10) nav.className = ''; else nav.className = 'scrolled';
 });
 
-
 // Loading the footer component
-
 body.append($('<footer></footer>'));
 $('footer').load("./assets/components/footer.html #footer");
 
 // Handling the 2000 version of the website
-
 window.onload = () => {
     // Function to add "2000" stylesheets
     function add2000Stylesheets() {
-        $('link[rel="stylesheet"][href*="regular"]').each(function() {
+        $('link[rel="stylesheet"][href*="regular"]').each(function () {
             let regularHref = $(this).attr('href');
             let alternateHref = regularHref.replace('regular', '2000');
 
@@ -53,7 +46,7 @@ window.onload = () => {
     }
 
     // Event listener for the toggle button
-    $(".switch").click(function() {
+    $(".switch").click(function () {
         if (localStorage.getItem("alternative") === "true") {
             // If "2000" styles are active, remove them
             remove2000Stylesheets();

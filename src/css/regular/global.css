@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-Black.woff2') format('woff2');
     font-weight: 900;
@@ -6,6 +7,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-Bold.woff2') format('woff2');
     font-weight: 700;
@@ -13,13 +15,14 @@
 }
 
 @font-face {
-    font-family: 'Dassault Aviation Sans';
+    font-display: swap;'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-BoldItalic.woff2') format('woff2');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-Italic.woff2') format('woff2');
     font-weight: 400;
@@ -27,6 +30,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-Light.woff2') format('woff2');
     font-weight: 300;
@@ -34,6 +38,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-LightItalic.woff2') format('woff2');
     font-weight: 300;
@@ -41,6 +46,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans';
     src: url('../../fonts/DassaultAviationSans-Regular.woff2') format('woff2');
     font-weight: 400;
@@ -48,6 +54,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans Condensed';
     src: url('../../fonts/DassaultAviationSansCondensed-Bold.woff2') format('woff2');
     font-weight: 700;
@@ -55,6 +62,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans Condensed';
     src: url('../../fonts/DassaultAviationSansCondensed-Light.woff2') format('woff2');
     font-weight: 300;
@@ -62,6 +70,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Sans Condensed';
     src: url('../../fonts/DassaultAviationSansCondensed-Regular.woff2') format('woff2');
     font-weight: 400;
@@ -69,6 +78,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Serif';
     src: url('../../fonts/DassaultAviationSerif-Bold.woff2') format('woff2');
     font-weight: 700;
@@ -76,6 +86,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Serif';
     src: url('../../fonts/DassaultAviationSerif-BoldItalic.woff2') format('woff2');
     font-weight: 700;
@@ -83,6 +94,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Serif';
     src: url('../../fonts/DassaultAviationSerif-Italic.woff2') format('woff2');
     font-weight: 400;
@@ -90,6 +102,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Serif';
     src: url('../../fonts/DassaultAviationSerif-Light.woff2') format('woff2');
     font-weight: 300;
@@ -97,6 +110,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Serif';
     src: url('../../fonts/DassaultAviationSerif-LightItalic.woff2') format('woff2');
     font-weight: 300;
@@ -104,6 +118,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Dassault Aviation Serif';
     src: url('../../fonts/DassaultAviationSerif-Regular.woff2') format('woff2');
     font-weight: 400;
@@ -262,7 +277,7 @@ nav:has(> #navbar) {
 }
 
 #endSection .switch {
-    background-image: url("../../media/plane1.gif");
+    background-image: url("../../media/plane1.webp");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -333,6 +348,7 @@ nav:has(> #navbar) {
     align-items: center;
     gap: 0.625rem;
     flex-shrink: 0;
+    line-height: 1;
 }
 
 #footer .vl {
