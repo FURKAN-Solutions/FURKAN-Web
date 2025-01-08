@@ -9,15 +9,17 @@
   <meta charset="utf-8">
   <title>Contatct FURKAN</title>
   <link rel="stylesheet" href="css/regular/global.css">
-  <link rel="stylesheet" href="css/2000/contact.css">
+  <link rel="stylesheet" href="css/regular/contact.css">
   <script src="./jquery.js"></script>
   <script src="./js/global.js" defer></script>
 </head>
 <body>
 <h1>Donnez-nous votre avis.</h1>
 <p class="description">Chez FURKAN Solutions, votre avis compte beaucoup. Ce dernier nous permet d'évoluer dans la bonne direction et de prendre des décisions pertinentes</p>
-<!--Demander plus de détails à Mathis pour le point "action"-->
-<form method="get" action="/action_formulaire_FURKAN.php">
+<article class="space">
+  <div class="hand"></div>
+</article>
+<form method="get" action="mailto:my@e-mail?content-type=text/html&subject=Site%20Web">
     <p>
         <label for="nom">Nom :</label>
         <input type="text" name="Nom" id="nom" placeholder="Rentrez votre nom ici" required="required">
@@ -36,7 +38,9 @@
         <label class="avis" for="votre_avis">Votre Avis :</label>
         <textarea name="Votre Avis" id="votre_avis" placeholder="Ecrivez ici" required="required"></textarea>
     </p>
+    <div class="container">
     <input type="submit" name="Soumettre" id="soumettre">
+    </div>
 </form>
 </body>
 </html>
