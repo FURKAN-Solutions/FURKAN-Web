@@ -38,7 +38,11 @@ jobs:
             git checkout -b gh-pages
           fi
           git add .
-          git commit -m 'Minify CSS, JS, and HTML files and deploy to gh-pages'
-          git push --force origin gh-pages
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+          else
+            git commit -m 'Minify CSS, JS, and HTML files and deploy to gh-pages'
+            git push --force origin gh-pages
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
