@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Donnez-nous votre avis</title>
+    <link rel="icon" href="./assets/svg/regular-logo.svg" type="image/svg+xml">
+    <meta name="author" content="Dargentolle François, Rapanakis-Bourg Marius, Fautsch Mathis">
+    <meta charset="utf-8">
+    <title>Contact — FURKAN</title>
+    <link rel="stylesheet" href="css/regular/global.css">
+    <link rel="stylesheet" href="css/regular/contact.css">
+    <script src="./jquery.js"></script>
+    <script src="./js/global.js" defer></script>
+</head>
+<body>
+    <h1>Donnez-nous votre avis.</h1>
+    <p class="description">Chez FURKAN Solutions, votre avis compte beaucoup. Ce dernier nous permet d'évoluer dans la bonne direction et de prendre des décisions pertinentes</p>
+    <article class="space">
+        <div class="hand"></div>
+    </article>
+    <form method="get" action="mailto:my@e-mail?content-type=text/html&subject=Site%20Web">
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" name="Nom" id="nom" placeholder="Rentrez votre nom ici" required="required">
+            <label for="prenom">Prenom :</label>
+            <input type="text" name="Prenom" id="prenom" placeholder="Rentrez votre prenom ici" required="required">
+            <label for="email">Email :</label>
+            <input type="email" name="Email" id="email" placeholder="Rentrez votre email ici" required="required">
+            <label for="adresse">Adresse :</label>
+            <input type="text" name="Adresse" id="adresse" placeholder="Rentrez votre adresse ici">
+            <label for="ville">Ville :</label>
+            <input type="text" name="Ville" id="ville" placeholder="Rentrez votre ville ici">
+            <label for="code_postal">Code Postal :</label>
+            <input type="text" name="Code Postal" id="code_postal" placeholder="Rentrez votre code postal ici">
+            <label for="tel">Tel. :</label>
+            <input type="tel" name="Tel." id="tel" placeholder="Rentrez votre numéro de téléphone ici" required="required">
+            <label class="avis" for="votre_avis">Votre Avis :</label>
+            <textarea name="Votre Avis" id="votre_avis" placeholder="Ecrivez ici" required="required"></textarea>
+        </p>
+        <div class="container">
+            <input type="submit" name="Soumettre" id="soumettre">
+        </div>
+    </form>
+</body>
+</html>
