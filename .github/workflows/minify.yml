@@ -20,9 +20,12 @@ jobs:
           node-version: '14'
 
       - name: Minify CSS, JS, and HTML files
-        uses: amireshoon/minifyAction@v1.1
-        with:
-          repo: ${{ github.repository }}
+        run: |
+          # Install the minify package globally
+          npm install -g minify
+          
+          # Find and minify all CSS, JS, and HTML files in the repository
+          find . -type f \( -name "*.css" -o -name "*.js" -o -name "*.html" \) -exec sh -c 'minify "$0" > "${0%.min}" && mv "${0%.min}" "$0"' {} \;
 
       - name: Configure git for pushing
         run: |
@@ -37,6 +40,11 @@ jobs:
           else
             git checkout -b gh-pages
           fi
+
+          # Copy all changes from the main branch to the gh-pages branch
+          git checkout main -- .
+          
+          # Add and commit changes
           git add .
           if git diff-index --quiet HEAD; then
             echo "No changes to commit"
