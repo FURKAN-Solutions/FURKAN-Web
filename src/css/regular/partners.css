@@ -1,1 +1,151 @@
-#partnersTitle{background-image:url("../../media/ImageHeaderPartners.webp");color:#FBFBFB;-ms-flex-negative:0;flex-shrink:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:39rem;background-position:center;font-size:5rem;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}#partnersTitle h1{color:inherit;}#partners{padding:2rem;gap:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}.card-odd{background:#130B3B;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;color:white;}.img-container{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;width:100%;}.lockheed-exception{width:100%}.inner-card-odd{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:15px;padding:4rem;-webkit-box-flex:2;-ms-flex-positive:2;flex-grow:2;}.text-card-odd{-webkit-column-count:2;-moz-column-count:2;column-count:2;text-align:justify;text-justify:auto;}.hr-main-odd{border:solid 1px #FBFBFB;text-align:center;width :80%}.hr-main-even{border:solid 1px #190E4F;text-align:center;width :80%}.hr-odd{border:solid 1px #FBFBFB;text-align:center;width :100%}.hr-even{border:solid 1px #190E4F;text-align:center;width :100%}.card-even{background:#E2E2E2;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;color:#190E4F;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}.card-even .img-container img{float:right;}.img-container{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;}.inner-card-even{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:15px;padding:4rem;-webkit-box-flex:2;-ms-flex-positive:2;flex-grow:2;}.text-card-even{-webkit-column-count:2;-moz-column-count:2;column-count:2;text-justify:auto;text-align:justify;}
+#partnersTitle {
+    background-image: url("../../media/ImageHeaderPartners.webp");
+    color: #FBFBFB;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 39rem;
+    background-position: center;
+    font-size: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#partnersTitle h1 {
+    color: inherit;
+}
+
+#partners {
+    padding: 2rem;
+    gap: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.card-odd {
+    background: #130B3B;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+}
+
+.img-container {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.lockheed-exception {
+    width: 100%
+}
+
+.inner-card-odd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 15px;
+    padding: 4rem;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+
+.text-card-odd {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.hr-main-odd {
+    border: solid 1px #FBFBFB;
+    text-align: center;
+    width: 80%
+}
+
+.hr-main-even {
+    border: solid 1px #190E4F;
+    text-align: center;
+    width: 80%
+}
+
+.hr-odd {
+    border: solid 1px #FBFBFB;
+    text-align: center;
+    width: 100%
+}
+
+.hr-even {
+    border: solid 1px #190E4F;
+    text-align: center;
+    width: 100%
+}
+
+.card-even {
+    background: #E2E2E2;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #190E4F;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.card-even .img-container img {
+    float: right;
+}
+
+.img-container {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.inner-card-even {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 15px;
+    padding: 4rem;
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+}
+
+.text-card-even {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    text-justify: auto;
+    text-align: justify;
+}

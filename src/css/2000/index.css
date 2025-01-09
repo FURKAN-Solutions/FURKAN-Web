@@ -1,1 +1,180 @@
-body{background:#FF47E6;}.expertise{display:none;}.Vous{color:#51179C;text-align:center;text-shadow:12px 18px 13.9px rgba(0, 0, 0, 0.85);-webkit-text-stroke:2px;-webkit-text-stroke-width:12;-webkit-text-stroke-color:#F864FB;font-family:"Ingrid Darling";font-size:40px;font-style:normal;font-weight:400;line-height:normal;}.card-container{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px;width:100%;height:60rem;}.card-container .bienvenue{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px;width:100%;height:20rem;}.bg-container{background-size:cover;background-repeat:no-repeat;height:100%;}.bienvenue{background-size:cover;background-repeat:no-repeat;height:100%;}.card-container:nth-of-type(1) .bg-container{background-image:url("../../media/canard_bienvenue.webp");background-position:right;}.card-container .bienvenue{background-image:url("../../media/bienvenidoavion.webp");}.choi{color:#3B5249;text-align:left;font-family:"Inria Serif";font-size:32px;font-style:normal;font-weight:400;line-height:normal;}.content-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:distribute;justify-content:space-around;}.clickbait{position:relative;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;width:100%;height:5rem;gap:10px;}.click{background-size:10%;background-repeat:repeat-x;height:100%;}.clickbait .click{background-image:url("../../media/clicknow.webp");}.avion-feu{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px;width:100%;height:60rem;}.avion{background-size:cover;background-repeat:no-repeat;height:100%;}.avion-feu .avion{background-image:url("../../media/final-count.webp");}.parce{color:#2D2D2D;text-align:center;-webkit-text-stroke:2px;-webkit-text-stroke-width:3;-webkit-text-stroke-color:#000;font-family:"Source Serif 4";font-size:32px;font-style:normal;font-weight:400;line-height:normal;}.Fur{color:#3B5249;font-family:"Inria Serif";font-size:48px;font-style:normal;font-weight:400;line-height:normal;}.bg{background-size:cover;background-repeat:no-repeat;height:100%;}.card-container:nth-of-type(3) .bg{background-image:url("../../media/allez-les-bleus.webp");-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;}.Nos{color:#3B5249;text-align:center;font-family:"Inria Serif";font-size:60px;font-style:normal;font-weight:400;line-height:normal;}
+body {
+    background: #FF47E6;
+}
+
+.expertise {
+    display: none;
+}
+
+.Vous {
+    color: #51179C;
+    text-align: center;
+    text-shadow: 12px 18px 13.9px rgba(0, 0, 0, 0.85);
+    -webkit-text-stroke-width: 12px;
+    -webkit-text-stroke-color: #F864FB;
+    font-family: "Ingrid Darling", monospace;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 60rem;
+}
+
+.card-container .bienvenue {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 20rem;
+}
+
+.bg-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bienvenue {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.card-container:nth-of-type(1) .bg-container {
+    background-image: url("../../media/canard_bienvenue.webp");
+    background-position: right;
+}
+
+.card-container .bienvenue {
+    background-image: url("../../media/bienvenidoavion.webp");
+}
+
+.choi {
+    color: #3B5249;
+    text-align: left;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.clickbait {
+    position: relative;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    gap: 10px;
+}
+
+.click {
+    background-size: 10%;
+    background-repeat: repeat-x;
+    height: 100%;
+}
+
+.clickbait .click {
+    background-image: url("../../media/clicknow.webp");
+}
+
+.avion-feu {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 60rem;
+}
+
+.avion {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.avion-feu .avion {
+    background-image: url("../../media/final-count.webp");
+}
+
+.parce {
+    color: #2D2D2D;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Fur {
+    color: #3B5249;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.card-container:nth-of-type(3) .bg {
+    background-image: url("../../media/allez-les-bleus.webp");
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.Nos {
+    color: #3B5249;
+    text-align: center;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

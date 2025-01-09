@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     height: 39rem;
-    width:100%;
+    width: 100%;
     background-position: center;
     font-size: 5rem;
     flex-direction: column;
@@ -23,7 +23,7 @@ body {
 .hr-main {
     border: solid 1px #FBFBFB;
     text-align: center;
-    width : 80%
+    width: 80%
 }
 
 .container-product {

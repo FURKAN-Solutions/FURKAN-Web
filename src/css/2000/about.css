@@ -1,1 +1,353 @@
-body{background-position:bottom;background-color:#52F2F2;}h1.Ap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-negative:0;flex-shrink:0;color:#3B5249;text-align:center;font-family:"Source Serif 4";font-size:38px;font-style:normal;font-weight:600;line-height:normal;}hr{display:none;}.card-container{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px;width:100%;height:50rem;}.card-container-2{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px;width:100%;height:50rem;}p.text1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-negative:0;flex-shrink:0;font-family:"Dassault Aviation Sans Condensed";font-size:25px;font-style:normal;font-weight:700;line-height:normal;}.imagefond{background-size:cover;background-repeat:no-repeat;height:100%;}.imagefond-2{background-size:cover;background-repeat:no-repeat;height:100%;}.card-container:nth-of-type(1) .imagefond{background-image:url("../../media/AVion-About-2000.webp");background-position:center;}.card-container:nth-of-type(2) .imagefond{background-image:url("../../media/paradise.webp");background-position:center;}.card-container-2:nth-of-type(3) .imagefond-2{background-image:url("../../media/image\ 7.webp");background-position:center;background-blend-mode:darken;}h2.Chez{color:#FAE8EB;text-align:center;-webkit-text-stroke:2px;-webkit-text-stroke-width:3;-webkit-text-stroke-color:#000;font-family:"Source Serif 4";font-size:30px;font-style:normal;font-weight:600;line-height:normal;}.text1{background:url(../../media/AnimatedFrenchFlag.webp);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;}h2.Fur{color:#FBE8EB;text-align:center;-webkit-text-stroke:2px;-webkit-text-stroke-width:2;-webkit-text-stroke-color:#000;font-family:"Source Serif 4";font-size:25px;font-style:normal;font-weight:600;line-height:normal;}p.Fur{font-family:"Dassault Aviation Sans Condensed";color:#3B5249;font-size:25px;font-style:normal;font-weight:700;line-height:normal;}h1.Nouscontacter{color:#FFE8EB;text-align:center;-webkit-text-stroke:2px;-webkit-text-stroke-width:2;-webkit-text-stroke-color:#000;font-family:"Source Serif 4";font-size:42px;font-style:normal;font-weight:700;line-height:normal;}.divi{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;gap:10px;width:100%;height:10rem;}.divider{background-size:cover;background-repeat:no-repeat;height:100%;}.divi:nth-of-type(4) .divider{background-image:url("../../media/plan_divider.webp");}.card1, .card2, .card3{position:relative;gap:10px;width:100%;height:30rem;background-size:cover;background-repeat:no-repeat;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}.card1{background-image:url("../../media/rose.webp");}.card1 .photo_de_profil{background-image:url("../../media/image 8.webp");height:50%;aspect-ratio:1;}.card2{background-image:url("../../media/bleu.webp");}.card2 .photo_de_profil{border-radius:151px;background-image:url("../../media/photo-marius.webp");height:50%;aspect-ratio:1;}.card3 .photo_de_profil{border-radius:151px;background-image:url("../../media/Why-sad.webp");height:50%;aspect-ratio:1;}.card3{background-image:url("../../media/untitled.webp");}.information_FR li{list-style:none;}.information_FR p{-webkit-transform:rotate(-10.274deg);-ms-transform:rotate(-10.274deg);transform:rotate(-10.274deg);-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-negative:0;flex-shrink:0;color:#0F1;font-family:"Inria Serif";font-size:16px;font-style:normal;font-weight:700;line-height:normal;}.information_MAR li{list-style:none;}.information_MAR p{-webkit-transform:rotate(-10.274deg);-ms-transform:rotate(-10.274deg);transform:rotate(-10.274deg);-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-negative:0;flex-shrink:0;color:#F864FB;font-family:"Inria Serif";font-size:16px;font-style:normal;font-weight:700;line-height:normal;}.information_MAT li{list-style:none;}.information_MAT p{-webkit-transform:rotate(-10.274deg);-ms-transform:rotate(-10.274deg);transform:rotate(-10.274deg);-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-negative:0;flex-shrink:0;color:#3B5249;font-family:"Inria Serif";font-size:16px;font-style:normal;font-weight:700;line-height:normal;}.photo_de_profil{background-size:cover;background-repeat:no-repeat;height:100%;}.card:nth-of-type(8) .photo_de_profil{border-radius:149px;background:url(../../media/image\ 8.webp);}.card:nth-of-type(8) .photo_de_profil{border-radius:149px;background:url(../../media/photo-marius.webp);}.card:nth-of-type(8) .photo_de_profil{border-radius:149px;background:url(../../media/Why-sad.webp);}@media (min-width:768px){header.menu ol{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;padding-left:40px;}form{max-width:700px;padding:30px;}footer{text-align:left;padding:30px 50px;}}@media (min-width:1024px){form{max-width:800px;padding:40px;}header.menu ol{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;padding-left:60px;}footer{padding:40px 80px;}}
+body {
+    background-position: bottom;
+    background-color: #52F2F2;
+}
+
+h1.Ap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #3B5249;
+    text-align: center;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+hr {
+    display: none;
+}
+
+.card-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50rem;
+}
+
+.card-container-2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50rem;
+}
+
+p.text1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-family: "Dassault Aviation Sans Condensed", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.imagefond {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.imagefond-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.card-container:nth-of-type(1) .imagefond {
+    background-image: url("../../media/AVion-About-2000.webp");
+    background-position: center;
+}
+
+.card-container:nth-of-type(2) .imagefond {
+    background-image: url("../../media/paradise.webp");
+    background-position: center;
+}
+
+.card-container-2:nth-of-type(3) .imagefond-2 {
+    background-image: url("../../media/image 7.webp");
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+h2.Chez {
+    color: #FAE8EB;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text1 {
+    background: url(../../media/AnimatedFrenchFlag.webp);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2.Fur {
+    color: #FBE8EB;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p.Fur {
+    font-family: "Dassault Aviation Sans Condensed", sans-serif;
+    color: #3B5249;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h1.Nouscontacter {
+    color: #FFE8EB;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.divi {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 10rem;
+}
+
+.divider {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.divi:nth-of-type(4) .divider {
+    background-image: url("../../media/plan_divider.webp");
+}
+
+.card1, .card2, .card3 {
+    position: relative;
+    gap: 10px;
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-image: url("../../media/rose.webp");
+}
+
+.card1 .photo_de_profil {
+    background-image: url("../../media/image 8.webp");
+    height: 50%;
+    aspect-ratio: 1;
+}
+
+.card2 {
+    background-image: url("../../media/bleu.webp");
+}
+
+.card2 .photo_de_profil {
+    border-radius: 151px;
+    background-image: url("../../media/photo-marius.webp");
+    height: 50%;
+    aspect-ratio: 1;
+}
+
+.card3 .photo_de_profil {
+    border-radius: 151px;
+    background-image: url("../../media/Why-sad.webp");
+    height: 50%;
+    aspect-ratio: 1;
+}
+
+.card3 {
+    background-image: url("../../media/untitled.webp");
+}
+
+.information_FR li {
+    list-style: none;
+}
+
+.information_FR p {
+    -webkit-transform: rotate(-10.274deg);
+    -ms-transform: rotate(-10.274deg);
+    transform: rotate(-10.274deg);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #0F1;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.information_MAR li {
+    list-style: none;
+}
+
+.information_MAR p {
+    -webkit-transform: rotate(-10.274deg);
+    -ms-transform: rotate(-10.274deg);
+    transform: rotate(-10.274deg);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #F864FB;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.information_MAT li {
+    list-style: none;
+}
+
+.information_MAT p {
+    -webkit-transform: rotate(-10.274deg);
+    -ms-transform: rotate(-10.274deg);
+    transform: rotate(-10.274deg);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #3B5249;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.photo_de_profil {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.card:nth-of-type(8) .photo_de_profil {
+    border-radius: 149px;
+    background: url("../../media/image 8.webp");
+}
+
+.card:nth-of-type(8) .photo_de_profil {
+    border-radius: 149px;
+    background: url(../../media/photo-marius.webp);
+}
+
+.card:nth-of-type(8) .photo_de_profil {
+    border-radius: 149px;
+    background: url(../../media/Why-sad.webp);
+}
+
+@media (min-width: 768px) {
+    header.menu ol {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+
+    form {
+        max-width: 700px;
+        padding: 30px;
+    }
+
+    footer {
+        text-align: left;
+        padding: 30px 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    form {
+        max-width: 800px;
+        padding: 40px;
+    }
+
+    header.menu ol {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        padding-left: 60px;
+    }
+
+    footer {
+        padding: 40px 80px;
+    }
+}

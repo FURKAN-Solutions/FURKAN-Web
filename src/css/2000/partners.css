@@ -1,1 +1,81 @@
-body{background:#C11B00;}#partnersTitle h1{color:#FBFBFB;text-align:center;-webkit-text-stroke:2px;-webkit-text-stroke-width:3;-webkit-text-stroke-color:#00D9FF;font-family:"Ingrid Darling";font-size:50px;font-style:normal;font-weight:400;line-height:normal;}.applau{position:relative;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;width:100%;height:5rem;}.applause{background-size:10%;background-repeat:repeat-x;height:100%;}.applau .applause{background-image:url("../../media/hands.webp");}.hr-main-odd{display:none;}.card-odd{background:#730F78;}.card-even{background:#FFF600;}.text-card-odd{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:right;-ms-flex-pack:right;justify-content:right;-ms-flex-negative:0;flex-shrink:0;color:#FFF;text-align:justify;font-family:"Inria Serif";font-size:20px;font-style:normal;font-weight:700;line-height:normal;letter-spacing:0.6px;}.text-card-even{color:#3B5249;text-align:justify;font-family:"Inria Serif";font-size:20px;font-style:normal;font-weight:700;line-height:normal;letter-spacing:0.6px;}
+body {
+    background: #C11B00;
+}
+
+#partnersTitle h1 {
+    color: #FBFBFB;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #00D9FF;
+    font-family: "Ingrid Darling", monospace;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.applau {
+    position: relative;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+}
+
+.applause {
+    background-size: 10%;
+    background-repeat: repeat-x;
+    height: 100%;
+}
+
+.applau .applause {
+    background-image: url("../../media/hands.webp");
+}
+
+.hr-main-odd {
+    display: none;
+}
+
+.card-odd {
+    background: #730F78;
+}
+
+.card-even {
+    background: #FFF600;
+}
+
+.text-card-odd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.text-card-even {
+    color: #3B5249;
+    text-align: justify;
+    font-family: "Dassault Aviation Serif", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
