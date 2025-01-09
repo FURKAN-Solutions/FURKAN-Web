@@ -306,7 +306,7 @@ h1.Nouscontacter {
     background-image: url("../../media/image-profil.webp");
 }
 
-.information_FR li p {
+.information_FR li p, .information_MAR li p, .information_MAT li p {
     color: #FFF;
     font-family: "Dassault Aviation Serif", serif;
     font-size: 22px;
