@@ -19,12 +19,12 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Minify CSS, JS, and HTML files
+      - name: Minify CSS and JS files
         run: |
           # Install the minify package globally
           npm install -g minify
           
-          # Find and minify all CSS, JS, and HTML files in the repository
+          # Find and minify only CSS and JS files in the repository
           find . -type f \( -name "*.css" -o -name "*.js" \) -exec sh -c 'minify "$0" > "${0%.min}" && mv "${0%.min}" "$0"' {} \;
 
       - name: Stash changes
