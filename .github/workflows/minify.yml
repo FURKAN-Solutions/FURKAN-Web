@@ -31,7 +31,12 @@ jobs:
 
       - name: Push changes to gh-pages branch
         run: |
-          git checkout -b gh-pages
+          git fetch origin
+          if git rev-parse --verify origin/gh-pages; then
+            git checkout gh-pages
+          else
+            git checkout -b gh-pages
+          fi
           git add .
           git commit -m 'Minify CSS, JS, and HTML files and deploy to gh-pages'
           git push --force origin gh-pages
