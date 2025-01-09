@@ -38,33 +38,10 @@ window.onload = () => {
         $('link[rel="stylesheet"].alternative-2000').remove();
     }
 
-    function switchLanguage(language) {
-        localStorage.setItem("language", language);
-        location.reload();
-    }
-
-    function loadLanguagePreference() {
-        const language = localStorage.getItem("language") || "fr";
-        if (language === "en") {
-            $("html").attr("lang", "en");
-            $("head link[rel='stylesheet']").each(function () {
-                const href = $(this).attr("href").replace("/css/regular/", "/css/2000/");
-                $(this).attr("href", href);
-            });
-            $("nav a").each(function () {
-                const href = $(this).attr("href").replace("./", "./en/");
-                $(this).attr("href", href);
-            });
-        }
-    }
-
     // Check localStorage for alternative stylesheet preference
     if (localStorage.getItem("alternative") === "true") {
         enableAlternativeStylesheet();
     }
-
-    // Load language preference
-    loadLanguagePreference();
 
     // Toggle alternative stylesheet on switch click
     $(".switch").click(function () {
@@ -75,12 +52,5 @@ window.onload = () => {
             enableAlternativeStylesheet();
             localStorage.setItem("alternative", "true");
         }
-    });
-
-    // Handle language switch
-    $(".dropdown-content a").click(function (e) {
-        e.preventDefault();
-        const language = $(this).attr("href").includes("/en/") ? "en" : "fr";
-        switchLanguage(language);
     });
 };
