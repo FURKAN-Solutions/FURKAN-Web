@@ -25,14 +25,12 @@ jobs:
           npm install -g minify
           
           # Find and minify all CSS, JS, and HTML files in the repository
-          find . -type f \( -name "*.css" -o -name "*.js" -o -name "*.html" \) -exec sh -c 'minify "$0" > "${0%.min}" && mv "${0%.min}" "$0"' {} \;
+          find . -type f \( -name "*.css" -o -name "*.js" \) -exec sh -c 'minify "$0" > "${0%.min}" && mv "${0%.min}" "$0"' {} \;
 
-      - name: Configure git for pushing
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: Stash changes
+        run: git stash --include-untracked
 
-      - name: Push changes to gh-pages branch
+      - name: Switch to gh-pages branch
         run: |
           git fetch origin
           if git rev-parse --verify origin/gh-pages; then
@@ -41,16 +39,19 @@ jobs:
             git checkout -b gh-pages
           fi
 
-          # Copy all changes from the main branch to the gh-pages branch
-          git checkout main -- .
-          
-          # Add and commit changes
+      - name: Apply stashed changes
+        run: git stash pop || echo "No stashed changes to apply"
+
+      - name: Add and commit changes
+        run: |
           git add .
           if git diff-index --quiet HEAD; then
             echo "No changes to commit"
           else
-            git commit -m 'Minify CSS, JS, and HTML files and deploy to gh-pages'
-            git push --force origin gh-pages
+            git commit -m 'Minify CSS and JS files and deploy to gh-pages'
           fi
+
+      - name: Push changes to gh-pages branch
+        run: git push --force origin gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
